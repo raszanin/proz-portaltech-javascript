@@ -1,0 +1,31 @@
+Oracle
+
+Originada nos anos 80, criado por Larry Ellison, a Oracle é hoje uma das maiores 
+empresas de tecnologia do mundo, sendo que desde 2009 é também proprietária das 
+linhas de software Java. O SGBD é o seu principal produto e desde o seu lançamento 
+no mercado vem sendo aperfeiçoado e desenvolvido para atender as necessidades de 
+empresas e do mundo conectado em que vivemos. Existem diversas versões do software, 
+sendo que cada uma delas contam com características que a tornam ideal à diferentes 
+modelos de negócio. É um software focado para as necessidades de empresas de médio 
+e grandes porte. Vale lembrar que, até o momento, o SGBD da Oracle é relacional. 
+Para manipulação e gestão do sistema, utiliza-se a linguagem PL/SQL. Linguagem 
+desenvolvida pela Oracle, a partir do SQL (ANSI), expandindo a sua capacidade 
+original. Com amplo domínio de mercado, conhecer a linguagem utilizada no SGBD da 
+Oracle é fundamental para o profissional de TI que visa ingressar na carreira como 
+um DBA. Você pode ter mais informações acessando o site oficial da Oracle.
+
+MySQL
+
+Um dos bancos de dados mais utilizados e populares, trata-se de uma tecnologia 
+Open Source, ou seja, de código aberto. Isto permite que o desenvolvimento do 
+mesmo seja realizado de acordo com as necessidades de uma organização. Além disso, 
+sua facilidade de uso e capacidade de rodar em diferentes sistemas operacionais 
+garante lugar cativo na preferência de grandes empresas por todo o globo. É 
+considerado o SGBD mais popular no mundo. Atualmente, pertence a Oracle que, além 
+de fomentar o uso da tecnologia Open Source, ainda disponibiliza uma versão mais 
+robusta (paga, é claro), contando com funcionalidades da empresa, como: alta 
+disponibilidade de monitoramento, firewalls, backups avançados, auditoria e entre 
+outras. Para o profissional de TI, conhecer e saber utilizar o MySQL, que é SGBD 
+relacional, pode ser considerado tão importante quanto o conhecimento do SGBD Oracle. 
+Em outras palavras, é praticamente obrigatório para quem deseja aproveitar a todas as 
+oportunidades do mercado (empresas de pequeno, médio e grande porte).
