@@ -1,4 +1,22 @@
-De acordo com os conceitos estudados, exiba os resultados das consultas das operações select, project, união, intersecção e diferença. Siga as instruções com base na tabela apresentada em anexo.
+De acordo com os conceitos estudados, exiba os resultados das consultas das operações select, project, 
+união, intersecção e diferença. Siga as instruções com base na tabela apresentada em anexo.
+
+aluno = {
+	pnome:string, unome:string, matricula:number, serie:string, disciplina:string, nota:number
+	'Vitoria'    , 'Claudino'   , 5542            , '2 ano'     , 'Matematica'     , 7          
+	'Luiz'       , 'Silva'      , 6215            , '1 ano'     , 'Portugues'      , 8          
+	'Andre'      , 'Carvalho'   , 4521            , '3 ano'     , 'Matematica'     , 9.5        
+	'Alan'       , 'Vilela'     , 3285            , '1 ano'     , 'Historia'       , 8          
+	'Figueiredo' , 'Santos'     , 4598            , '2 ano'     , 'Geografia'      , 9          
+}
+
+professor = {
+	pnome:string, unome:string
+	'Andre'      , 'Carvalho'
+	'Vitoria'    , 'Claudino'
+	'Jose'			 , 'Souza'
+	'Marcelo'    , 'Duarte'
+}
 
 - Mostre as informações apenas dos alunos aprovados. A aprovação é acima de 7,0;
 
@@ -14,10 +32,27 @@ De acordo com os conceitos estudados, exiba os resultados das consultas das oper
   π pnome, nota (aluno)
 
 - Crie uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor;
-  
+
+  π pnome, unome (professor)
+    
 - Crie uma tabela ALUNO com o primeiro e o último nome de cada;
+
+  π pnome, unome (aluno)
+
 - Mostre o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
+
+  π pnome, unome (aluno)
+  ∪ 
+  π pnome, unome (professor)
+
 - Exiba o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
+
+  π pnome, unome (aluno)
+  ∩ 
+  π pnome, unome (professor)
+
 - Exiba o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR. 
 
-Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+  π pnome, unome (aluno)
+  - 
+  π pnome, unome (professor)
