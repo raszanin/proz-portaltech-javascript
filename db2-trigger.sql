@@ -15,10 +15,12 @@ create table pedido (
 
 
 CREATE TRIGGER validacao_pedido 
-  BEFORE INSERT OR UPDATE ON pedidos
+  BEFORE INSERT ON pedido
   FOR EACH ROW 
   BEGIN
-
+    IF NEW.cliente IS NULL THEN
+      RAISE EXCEPTION 'Por Favor, insira um cliente!';
+    END IF
   END;
 
   
