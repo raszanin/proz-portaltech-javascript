@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION calculo
-(numero in number)
+()
 RETURN number
 IS
 BEGIN 
-  RETURN (numero + 30)
+  RETURN SELECT sum(clientes) AS 'QtdeCliente' FROM clientes where datacadastro = date(now)
 end calculo;
